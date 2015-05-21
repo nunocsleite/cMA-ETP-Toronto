@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes/TestSO.cpp
+cmath
+-
+iostream
+-
+stdlib.h
+-
+

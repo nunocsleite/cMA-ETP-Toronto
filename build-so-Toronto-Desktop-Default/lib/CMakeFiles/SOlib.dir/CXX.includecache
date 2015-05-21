@@ -1,0 +1,2208 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/EO.h
+stdexcept
+-
+eoObject.h
+-
+eoPersistent.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/PO.h
+stdexcept
+-
+EO.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/apply.h
+utils/eoParallel.h
+-
+utils/eoParser.h
+-
+utils/eoLogger.h
+-
+eoFunctor.h
+-
+vector
+-
+omp.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eo
+config.h
+-
+utils/eoData.h
+-
+eoObject.h
+-
+eoPrintable.h
+-
+eoPersistent.h
+-
+eoScalarFitness.h
+-
+eoDualFitness.h
+-
+EO.h
+-
+utils/rnd_generators.h
+-
+eoFunctor.h
+-
+apply.h
+-
+eoVector.h
+-
+other/eoString.h
+-
+utils/eoRndGenerators.h
+-
+eoInit.h
+-
+utils/eoUniformInit.h
+-
+eoOp.h
+-
+eoGenOp.h
+-
+eoCloneOps.h
+-
+eoOpContainer.h
+-
+eoProportionalCombinedOp.h
+-
+eoSGAGenOp.h
+-
+eoPropGAGenOp.h
+-
+eoPop.h
+-
+eoPopEvalFunc.h
+-
+eoEvalFuncPtr.h
+-
+eoEvalCounterThrowException.h
+-
+eoEvalTimeThrowException.h
+-
+eoEvalUserTimeThrowException.h
+-
+eoCombinedContinue.h
+-
+eoGenContinue.h
+-
+eoSteadyFitContinue.h
+-
+eoEvalContinue.h
+-
+eoFitContinue.h
+-
+eoPeriodicContinue.h
+-
+eoTimeContinue.h
+-
+eoCtrlCContinue.h
+-
+eoRandomSelect.h
+-
+eoSequentialSelect.h
+-
+eoDetTournamentSelect.h
+-
+eoProportionalSelect.h
+-
+eoFitnessScalingSelect.h
+-
+eoRankingSelect.h
+-
+eoStochTournamentSelect.h
+-
+eoSharingSelect.h
+-
+eoTruncatedSelectOne.h
+-
+eoSelectPerc.h
+-
+eoSelectNumber.h
+-
+eoSelectMany.h
+-
+eoTruncatedSelectMany.h
+-
+eoDetSelect.h
+-
+eoGeneralBreeder.h
+-
+eoMergeReduce.h
+-
+eoReduceMerge.h
+-
+eoSurviveAndDie.h
+-
+eoSGATransform.h
+-
+eoNDSorting.h
+-
+eoEasyEA.h
+-
+eoSGA.h
+-
+utils/checkpointing
+-
+utils/eoRealVectorBounds.h
+-
+utils/eoIntBounds.h
+-
+other/external_eo
+-
+eoCounter.h
+-
+PO.h
+-
+eoVectorParticle.h
+-
+eoBitParticle.h
+-
+eoRealParticle.h
+-
+eoParticleBestInit.h
+-
+eoInitializer.h
+-
+eoVelocity.h
+-
+eoStandardVelocity.h
+-
+eoExtendedVelocity.h
+-
+eoIntegerVelocity.h
+-
+eoConstrictedVelocity.h
+-
+eoFixedInertiaWeightedVelocity.h
+-
+eoVariableInertiaWeightedVelocity.h
+-
+eoConstrictedVariableWeightVelocity.h
+-
+eoFlight.h
+-
+eoStandardFlight.h
+-
+eoVelocityInit.h
+-
+eoBinaryFlight.h
+-
+eoSigBinaryFlight.h
+-
+eoTopology.h
+-
+eoStarTopology.h
+-
+eoLinearTopology.h
+-
+eoRingTopology.h
+-
+eoNeighborhood.h
+-
+eoSocialNeighborhood.h
+-
+eoPSO.h
+-
+eoEasyPSO.h
+-
+eoSyncEasyPSO.h
+-
+eoRealBoundModifier.h
+-
+eoRandomRealWeightUp.h
+-
+eoWeightUpdater.h
+-
+eoLinearDecreasingWeightUp.h
+-
+eoGaussRealWeightUp.h
+-
+utils/eoLogger.h
+-
+utils/eoParallel.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoAlgo.h
+eoPop.h
+-
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoBinaryFlight.h
+eoFlight.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoBitParticle.h
+eoVectorParticle.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoBreed.h
+eoPop.h
+-
+eoFunctor.h
+-
+eoSelect.h
+-
+eoTransform.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoCloneOps.h
+eoOp.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoCombinedContinue.h
+eoContinue.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoConstrictedVariableWeightVelocity.h
+eoVelocity.h
+-
+eoTopology.h
+-
+eoWeightUpdater.h
+-
+utils/eoRealVectorBounds.h
+-
+eoRealBoundModifier.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoConstrictedVelocity.h
+eoFunctor.h
+-
+utils/eoRNG.h
+-
+eoPop.h
+-
+utils/eoRealVectorBounds.h
+-
+eoTopology.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoContinue.h
+eoFunctor.h
+-
+eoPop.h
+-
+eoPersistent.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoCounter.h
+eoFunctor.h
+-
+eoFunctorStore.h
+-
+utils/eoParam.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoCtrlCContinue.h
+csignal
+-
+eoContinue.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoDetSelect.h
+eoSelect.h
+-
+utils/eoHowMany.h
+-
+math.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoDetTournamentSelect.h
+functional
+-
+numeric
+-
+eoFunctor.h
+-
+eoPop.h
+-
+utils/eoLogger.h
+-
+utils/selectors.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoDualFitness.h
+functional
+-
+iostream
+-
+utility
+-
+string
+-
+utils/eoStat.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEasyEA.h
+apply.h
+-
+eoAlgo.h
+-
+eoPopEvalFunc.h
+-
+eoContinue.h
+-
+eoSelect.h
+-
+eoTransform.h
+-
+eoBreed.h
+-
+eoMergeReduce.h
+-
+eoReplacement.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEasyPSO.h
+eoContinue.h
+-
+eoPSO.h
+-
+eoVelocity.h
+-
+eoFlight.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEvalContinue.h
+eoContinue.h
+-
+eoEvalFuncCounter.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEvalCounterThrowException.h
+eoEvalFuncCounter.h
+-
+utils/eoParam.h
+-
+eoExceptions.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEvalFunc.h
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEvalFuncCounter.h
+eoEvalFunc.h
+-
+utils/eoParam.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEvalFuncPtr.h
+eoEvalFunc.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEvalTimeThrowException.h
+ctime
+-
+eoExceptions.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoEvalUserTimeThrowException.h
+sys/time.h
+-
+sys/resource.h
+-
+eoExceptions.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoExceptions.h
+ctime
+-
+stdexcept
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoExtendedVelocity.h
+eoFunctor.h
+-
+utils/eoRNG.h
+-
+eoPop.h
+-
+utils/eoRealVectorBounds.h
+-
+eoRealBoundModifier.h
+-
+eoTopology.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoFitContinue.h
+eoContinue.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoFitnessScalingSelect.h
+eoSelectFromWorth.h
+-
+eoLinearFitScaling.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoFixedInertiaWeightedVelocity.h
+eoFunctor.h
+-
+utils/eoRNG.h
+-
+eoPop.h
+-
+utils/eoRealVectorBounds.h
+-
+eoTopology.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoFlight.h
+eoFunctor.h
+-
+utils/eoRealVectorBounds.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoFunctor.h
+functional
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoFunctorStore.h
+vector
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoGaussRealWeightUp.h
+eoWeightUpdater.h
+-
+utils/eoRNG.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoGenContinue.h
+eoContinue.h
+-
+utils/eoParam.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoGenOp.h
+eoOp.h
+-
+eoPopulator.h
+-
+eoFunctorStore.h
+-
+assert.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoGeneralBreeder.h
+eoOp.h
+-
+eoGenOp.h
+-
+eoPopulator.h
+-
+eoSelectOne.h
+-
+eoBreed.h
+-
+utils/eoHowMany.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoInit.h
+algorithm
+-
+eoOp.h
+-
+eoSTLFunctor.h
+-
+utils/eoRndGenerators.h
+-
+utils/rnd_generators.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoInitializer.h
+utils/eoRealVectorBounds.h
+-
+eoVelocityInit.h
+-
+eoPop.h
+-
+eoParticleBestInit.h
+-
+eoTopology.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoIntegerVelocity.h
+eoFunctor.h
+-
+utils/eoRNG.h
+-
+eoPop.h
+-
+utils/eoRealVectorBounds.h
+-
+eoRealBoundModifier.h
+-
+eoTopology.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoInvalidateOps.h
+eoOp.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoLinearDecreasingWeightUp.h
+eoWeightUpdater.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoLinearFitScaling.h
+eoSelectFromWorth.h
+-
+eoPerf2Worth.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoLinearTopology.h
+eoPop.h
+-
+eoTopology.h
+-
+eoSocialNeighborhood.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoMerge.h
+stdexcept
+-
+eoPop.h
+-
+eoFunctor.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoMergeReduce.h
+eoPop.h
+-
+eoFunctor.h
+-
+eoMerge.h
+-
+eoReduce.h
+-
+eoReplacement.h
+-
+utils/eoHowMany.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoNDSorting.h
+EO.h
+-
+algorithm
+-
+eoPop.h
+-
+eoPerf2Worth.h
+-
+cassert
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoNeighborhood.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoObject.h
+utils/eoData.h
+-
+iostream
+-
+string
+-
+utils/compatibility.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoOp.h
+eoObject.h
+-
+eoPrintable.h
+-
+eoFunctor.h
+-
+utils/eoRNG.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoOpContainer.h
+eoGenOp.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPSO.h
+eoAlgo.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoParticleBestInit.h
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPerf2Worth.h
+utils/eoParam.h
+-
+eoPop.h
+-
+eoFunctor.h
+-
+algorithm
+-
+vector
+-
+string
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPeriodicContinue.h
+eoContinue.h
+-
+eoPop.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPersistent.h
+iostream
+-
+string
+-
+eoPrintable.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPrintable.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPop.h
+algorithm
+-
+iostream
+-
+iterator
+-
+vector
+-
+eoOp.h
+-
+eoPersistent.h
+-
+eoInit.h
+-
+utils/rnd_generators.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPopEvalFunc.h
+eoEvalFunc.h
+-
+apply.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPopulator.h
+eoPop.h
+-
+eoSelectOne.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPrintable.h
+iostream
+-
+string
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoPropGAGenOp.h
+eoGenOp.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoGenOp.h
+eoInvalidateOps.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoInvalidateOps.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoProportionalCombinedOp.h
+eoObject.h
+-
+eoPrintable.h
+-
+eoFunctor.h
+-
+eoOp.h
+-
+utils/eoRNG.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoProportionalSelect.h
+utils/eoRNG.h
+-
+utils/selectors.h
+-
+eoSelectOne.h
+-
+eoPop.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoRandomRealWeightUp.h
+eoWeightUpdater.h
+-
+utils/eoRNG.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoRandomSelect.h
+utils/eoRNG.h
+-
+eoSelectOne.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoRanking.h
+eoPerf2Worth.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoRankingSelect.h
+eoSelectFromWorth.h
+-
+eoRanking.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoRealBoundModifier.h
+eoFunctor.h
+-
+utils/eoRealVectorBounds.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoRealParticle.h
+eoVectorParticle.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoReduce.h
+iostream
+-
+eoPop.h
+-
+eoFunctor.h
+-
+utils/selectors.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoReduceMerge.h
+eoPop.h
+-
+eoFunctor.h
+-
+eoMerge.h
+-
+eoReduce.h
+-
+eoReplacement.h
+-
+utils/eoHowMany.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoReplacement.h
+eoPop.h
+-
+eoFunctor.h
+-
+eoMerge.h
+-
+eoReduce.h
+-
+utils/eoHowMany.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoRingTopology.h
+eoTopology.h
+-
+eoSocialNeighborhood.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSGA.h
+eoInvalidateOps.h
+-
+eoContinue.h
+-
+eoPop.h
+-
+eoSelectOne.h
+-
+eoSelectPerc.h
+-
+eoEvalFunc.h
+-
+eoAlgo.h
+-
+apply.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSGAGenOp.h
+eoGenOp.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoGenOp.h
+eoInvalidateOps.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoInvalidateOps.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSGATransform.h
+eoInvalidateOps.h
+-
+eoPop.h
+-
+vector
+-
+utils/eoRNG.h
+-
+eoTransform.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSTLFunctor.h
+eoFunctor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoFunctor.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoScalarFitness.h
+functional
+-
+iostream
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoScalarFitnessAssembled.h
+functional
+-
+iostream
+-
+stdexcept
+-
+vector
+-
+string
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSelect.h
+eoPop.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSelectFromWorth.h
+iostream
+-
+eoSelectOne.h
+-
+eoPerf2Worth.h
+-
+utils/selectors.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSelectMany.h
+eoSelect.h
+-
+eoSelectOne.h
+-
+utils/eoHowMany.h
+-
+math.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSelectNumber.h
+eoSelect.h
+-
+eoSelectOne.h
+-
+math.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSelectOne.h
+eoPop.h
+-
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSelectPerc.h
+eoSelect.h
+-
+eoSelectOne.h
+-
+math.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSequentialSelect.h
+limits
+-
+utils/eoData.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoData.h
+utils/eoRNG.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRNG.h
+eoSelectOne.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSelectOne.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSharing.h
+eoPerf2Worth.h
+-
+utils/eoDistance.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSharingSelect.h
+eoSelectFromWorth.h
+-
+eoSharing.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSigBinaryFlight.h
+eoBinaryFlight.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSocialNeighborhood.h
+eoNeighborhood.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoStandardFlight.h
+eoFlight.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoStandardVelocity.h
+eoFunctor.h
+-
+utils/eoRNG.h
+-
+eoPop.h
+-
+utils/eoRealVectorBounds.h
+-
+eoRealBoundModifier.h
+-
+eoTopology.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoStarTopology.h
+eoTopology.h
+-
+eoSocialNeighborhood.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSteadyFitContinue.h
+eoContinue.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoStochTournamentSelect.h
+functional
+-
+numeric
+-
+eoSelectOne.h
+-
+utils/selectors.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSurviveAndDie.h
+eoPop.h
+-
+eoFunctor.h
+-
+eoMerge.h
+-
+eoReduce.h
+-
+utils/eoHowMany.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoSyncEasyPSO.h
+eoContinue.h
+-
+eoPopEvalFunc.h
+-
+eoPSO.h
+-
+eoVelocity.h
+-
+eoFlight.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoTimeContinue.h
+ctime
+-
+eoContinue.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoTopology.h
+eoNeighborhood.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoTransform.h
+eoPop.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoTruncatedSelectMany.h
+eoSelect.h
+-
+eoSelectOne.h
+-
+utils/eoHowMany.h
+-
+math.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoTruncatedSelectOne.h
+eoSelect.h
+-
+eoSelectOne.h
+-
+utils/eoHowMany.h
+-
+math.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoVariableInertiaWeightedVelocity.h
+eoVelocity.h
+-
+eoTopology.h
+-
+eoWeightUpdater.h
+-
+utils/eoRealVectorBounds.h
+-
+eoRealBoundModifier.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoVector.h
+vector
+-
+iterator
+-
+EO.h
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoVectorParticle.h
+PO.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoVelocity.h
+eoFunctor.h
+-
+utils/eoRNG.h
+-
+eoPop.h
+-
+eoTopology.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoVelocityInit.h
+algorithm
+-
+eoOp.h
+-
+eoSTLFunctor.h
+-
+utils/eoRndGenerators.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/eoWeightUpdater.h
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/other/eoExternalEO.h
+EO.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/other/eoExternalOpFunctions.h
+other/eoExternalEO.h
+-
+eoOp.h
+-
+eoInit.h
+-
+eoEvalFunc.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/other/eoString.h
+iostream
+-
+string
+-
+stdexcept
+-
+EO.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/other/external_eo
+other/eoExternalEO.h
+-
+other/eoExternalOpFunctions.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/checkpointing
+utils/eoParser.h
+-
+utils/eoState.h
+-
+utils/eoUpdater.h
+-
+utils/eoMonitor.h
+-
+utils/eoFileMonitor.h
+-
+utils/eoStdoutMonitor.h
+-
+utils/eoOStreamMonitor.h
+-
+utils/eoGnuplot1DMonitor.h
+-
+utils/eoGnuplot1DSnapshot.h
+-
+utils/eoCheckPoint.h
+-
+utils/eoSignal.h
+-
+utils/eoStat.h
+-
+utils/eoScalarFitnessStat.h
+-
+utils/eoAssembledFitnessStat.h
+-
+utils/eoFDCStat.h
+-
+utils/eoMOFitnessStat.h
+-
+utils/eoPopStat.h
+-
+utils/eoTimeCounter.h
+-
+utils/eoGenCounter.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/compatibility.h
+string
+-
+iostream
+-
+stdlib.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoAssembledFitnessStat.h
+utils/eoStat.h
+-
+eoScalarFitnessAssembled.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoCheckPoint.h
+eoContinue.h
+-
+utils/eoUpdater.h
+-
+utils/eoMonitor.h
+-
+utils/eoStat.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoData.h
+math.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoDistance.h
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoFDCStat.h
+utils/eoStat.h
+-
+utils/eoDistance.h
+-
+utils/eoFileSnapshot.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoFileMonitor.h
+string
+-
+fstream
+-
+stdexcept
+-
+utils/eoMonitor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/utils/eoMonitor.h
+eoObject.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoObject.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoFileSnapshot.h
+cstdlib
+-
+fstream
+-
+string
+-
+utils/eoParam.h
+-
+utils/eoMonitor.h
+-
+eoObject.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoGenCounter.h
+string
+-
+utils/eoStat.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoGnuplot.h
+string
+-
+pipecom.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/pipecom.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoGnuplot1DMonitor.h
+fstream
+-
+string
+-
+eoObject.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoObject.h
+utils/eoFileMonitor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/utils/eoFileMonitor.h
+utils/eoGnuplot.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/utils/eoGnuplot.h
+utils/pipecom.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/utils/pipecom.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoGnuplot1DSnapshot.h
+fstream
+-
+sstream
+-
+string
+-
+eoObject.h
+-
+eoRealVectorBounds.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRealVectorBounds.h
+utils/pipecom.h
+-
+utils/eoFileSnapshot.h
+-
+utils/eoGnuplot.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoHowMany.h
+sstream
+-
+utils/eoLogger.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoIntBounds.h
+stdexcept
+-
+utils/eoRNG.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoLogger.h
+eo
+-
+map
+-
+vector
+-
+string
+-
+iosfwd
+-
+eoObject.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoObject.h
+eoParser.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoParser.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoMOFitnessStat.h
+utils/eoStat.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoMonitor.h
+vector
+-
+iostream
+-
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoOStreamMonitor.h
+string
+-
+iostream
+-
+utils/eoMonitor.h
+-
+utils/eoLogger.h
+-
+eoObject.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoParallel.h
+eoObject.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoObject.h
+eoParser.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoParser.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoParam.h
+cmath
+-
+iterator
+-
+stdexcept
+-
+sstream
+-
+string
+-
+vector
+-
+eoScalarFitness.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoParser.h
+map
+-
+sstream
+-
+string
+-
+eoParam.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoParam.h
+eoObject.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoObject.h
+eoPersistent.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoPersistent.h
+eoExceptions.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoExceptions.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoPopStat.h
+utils/eoStat.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRNG.h
+stdint.h
+-
+inttypes.h
+-
+cmath
+-
+vector
+-
+eoPersistent.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoPersistent.h
+eoObject.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoObject.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRealBounds.h
+stdexcept
+-
+utils/eoRNG.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRealVectorBounds.h
+stdexcept
+-
+utils/eoRNG.h
+-
+utils/eoRealBounds.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRndGenerators.h
+eoRNG.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRNG.h
+eoFunctor.h
+-
+stdexcept
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoScalarFitnessStat.h
+utils/eoRealVectorBounds.h
+-
+utils/eoStat.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoSignal.h
+csignal
+-
+utils/eoCheckPoint.h
+-
+utils/eoLogger.h
+-
+map
+-
+vector
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoStat.h
+numeric
+-
+eoFunctor.h
+-
+utils/eoParam.h
+-
+eoPop.h
+-
+utils/eoMonitor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoState.h
+stdexcept
+-
+string
+-
+map
+-
+vector
+-
+eoFunctorStore.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoStdoutMonitor.h
+string
+-
+utils/eoOStreamMonitor.h
+-
+eoObject.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoTimeCounter.h
+time.h
+-
+utils/eoStat.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoUniformInit.h
+eoRNG.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRNG.h
+eoInit.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoInit.h
+eoRealBounds.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRealBounds.h
+stdexcept
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoUpdater.h
+string
+-
+eoFunctor.h
+-
+utils/eoState.h
+-
+utils/eoParam.h
+-
+time.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/pipecom.h
+stdio.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/rnd_generators.h
+eoRNG.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRNG.h
+stdexcept
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/selectors.h
+stdexcept
+-
+eoRNG.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src/utils/eoRNG.h
+eoPop.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/algo/moLocalSearch.h
+explorer/moNeighborhoodExplorer.h
+-
+continuator/moContinuator.h
+-
+neighborhood/moNeighborhood.h
+-
+eoEvalFunc.h
+-
+eoOp.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/comparator/moComparator.h
+EO.h
+-
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/comparator/moSolNeighborComparator.h
+EO.h
+-
+eoFunctor.h
+-
+neighborhood/moNeighbor.h
+-
+comparator/moComparator.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/continuator/moContinuator.h
+eoFunctor.h
+-
+neighborhood/moNeighborhood.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/continuator/moTrueContinuator.h
+continuator/moContinuator.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/coolingSchedule/moCoolingSchedule.h
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/eval/moDummyEval.h
+eval/moEval.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/eval/moEval.h
+eoFunctor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/explorer/moNeighborhoodExplorer.h
+eoFunctor.h
+-
+neighborhood/moNeighborhood.h
+-
+eval/moEval.h
+-
+neighborhood/moDummyNeighborhood.h
+-
+eval/moDummyEval.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/neighborhood/moDummyNeighbor.h
+neighborhood/moNeighbor.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/neighborhood/moDummyNeighborhood.h
+neighborhood/moDummyNeighbor.h
+-
+neighborhood/moNeighborhood.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/neighborhood/moNeighbor.h
+EO.h
+-
+eoObject.h
+-
+eoPersistent.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src/neighborhood/moNeighborhood.h
+eoObject.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/Crossover.h
+chromosome/eoChromosome.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/chromosome/eoChromosome.h
+eoOp.h
+-
+kempeChain/ETTPKempeChainHeuristic.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/kempeChain/ETTPKempeChainHeuristic.h
+utility
+-
+boost/unordered_map.hpp
+-
+neighbourhood/ETTPneighborhood.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/neighbourhood/ETTPneighborhood.h
+algorithms/mo/moTA.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/algorithms/mo/moTA.h
+neighbourhood/ETTPneighborEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/neighbourhood/ETTPneighborEval.h
+algorithms/mo/moSimpleCoolingSchedule.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/algorithms/mo/moSimpleCoolingSchedule.h
+testset/TestSetDescription.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/testset/TestSetDescription.h
+eoGenContinue.h
+-
+utils/eoCheckPoint.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/Mutation.h
+chromosome/eoChromosome.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/chromosome/eoChromosome.h
+eoOp.h
+-
+string
+-
+neighbourhood/ETTPneighborhood.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/neighbourhood/ETTPneighborhood.h
+neighbourhood/ETTPneighborEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/neighbourhood/ETTPneighborEval.h
+kempeChain/ETTPKempeChainHeuristic.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/kempeChain/ETTPKempeChainHeuristic.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoAlgoPointer.h
+eoPop.h
+-
+eoFunctor.h
+-
+boost/shared_ptr.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoCellularEA.h
+fstream
+-
+algorithms/eo/eoGenerationContinuePopVector.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/algorithms/eo/eoGenerationContinuePopVector.h
+eoEvalFunc.h
+-
+eoSelectOne.h
+-
+algorithms/eo/eoDeterministicTournamentSelectorPointer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/algorithms/eo/eoDeterministicTournamentSelectorPointer.h
+eoPopEvalFunc.h
+-
+algorithms/eo/eoAlgoPointer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/algorithms/eo/eoAlgoPointer.h
+eoOp.h
+-
+neighbourhood/ETTPneighborhood.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/neighbourhood/ETTPneighborhood.h
+neighbourhood/statistics/ETTPneighborEvalNumEvalsCounter.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/neighbourhood/statistics/ETTPneighborEvalNumEvalsCounter.h
+algorithms/mo/moSimpleCoolingSchedule.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/algorithms/mo/moSimpleCoolingSchedule.h
+algorithms/mo/moTA.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/algorithms/mo/moTA.h
+eval/eoETTPEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eval/eoETTPEval.h
+eval/eoNumberEvalsCounter.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eval/eoNumberEvalsCounter.h
+utils/CurrentDateTime.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/utils/CurrentDateTime.h
+boost/make_shared.hpp
+-
+boost/accumulators/accumulators.hpp
+-
+boost/accumulators/statistics/stats.hpp
+-
+boost/accumulators/statistics/mean.hpp
+-
+boost/accumulators/statistics/variance.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoCellularEAMatrix.h
+eoCellularEA.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoCellularEA.h
+fstream
+-
+eval/eoNumberEvalsCounter.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eval/eoNumberEvalsCounter.h
+algorithms/eo/eoGenerationContinuePopVector.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/algorithms/eo/eoGenerationContinuePopVector.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoCellularEARing.h
+eoCellularEA.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoCellularEA.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoDeterministicTournamentSelectorPointer.h
+utils/eoRNG.h
+-
+eoPop.h
+-
+boost/shared_ptr.hpp
+-
+vector
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoGenerationContinuePopVector.h
+eoFunctor.h
+-
+stdio.h
+-
+stdlib.h
+-
+vector
+-
+string
+-
+boost/shared_ptr.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoSelectBestOne.h
+eoPop.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/moSimpleCoolingSchedule.h
+cmath
+-
+coolingSchedule/moCoolingSchedule.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/moTA.h
+algo/moLocalSearch.h
+-
+algorithms/mo/moTAexplorer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/algorithms/mo/moTAexplorer.h
+continuator/moTrueContinuator.h
+-
+eval/moEval.h
+-
+eoEvalFunc.h
+-
+algorithms/mo/moSimpleCoolingSchedule.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/algorithms/mo/moSimpleCoolingSchedule.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/moTAexplorer.h
+comparator/moSolNeighborComparator.h
+-
+coolingSchedule/moCoolingSchedule.h
+-
+neighborhood/moNeighborhood.h
+-
+neighbourhood/ETTPNeighborhoodExplorer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/neighbourhood/ETTPNeighborhoodExplorer.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/moTAWithStatistics.h
+algo/moLocalSearch.h
+-
+algorithms/mo/statistics/moTAexplorerWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/algorithms/mo/statistics/moTAexplorerWithStatistics.h
+continuator/moTrueContinuator.h
+-
+eval/moEval.h
+-
+eoEvalFunc.h
+-
+algorithms/mo/moSimpleCoolingSchedule.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/algorithms/mo/moSimpleCoolingSchedule.h
+statistics/ExamMoveStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/statistics/ExamMoveStatistics.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/moTAexplorerWithStatistics.h
+explorer/moNeighborhoodExplorer.h
+-
+comparator/moSolNeighborComparator.h
+-
+coolingSchedule/moCoolingSchedule.h
+-
+neighborhood/moNeighborhood.h
+-
+neighbourhood/statistics/ETTPneighborWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/neighbourhood/statistics/ETTPneighborWithStatistics.h
+neighbourhood/ETTPneighborEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/neighbourhood/ETTPneighborEval.h
+chromosome/eoChromosome.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/chromosome/eoChromosome.h
+statistics/ExamMoveStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/statistics/ExamMoveStatistics.h
+algorithms/mo/moTAexplorer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/algorithms/mo/moTAexplorer.h
+neighbourhood/ETTPneighborhood.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/neighbourhood/ETTPneighborhood.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/eoChromosome.h
+EO.h
+-
+containers/Matrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/containers/Matrix.h
+containers/TimetableContainer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/containers/TimetableContainer.h
+containers/TimetableContainerMatrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/containers/TimetableContainerMatrix.h
+data/TimetableProblemData.hpp
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/data/TimetableProblemData.hpp
+utils/Common.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/utils/Common.h
+boost/shared_ptr.hpp
+-
+boost/make_shared.hpp
+-
+vector
+-
+string
+-
+ostream
+-
+kempeChain/ETTPKempeChain.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/kempeChain/ETTPKempeChain.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/ColumnMatrix.h
+vector
+-
+iostream
+-
+assert.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/IntMatrix.h
+containers/Matrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/containers/Matrix.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/Matrix.h
+vector
+-
+iostream
+-
+assert.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/TimetableContainer.h
+boost/unordered_set.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/TimetableContainerMatrix.h
+containers/TimetableContainer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/containers/TimetableContainer.h
+boost/shared_ptr.hpp
+-
+boost/unordered_set.hpp
+-
+containers/ColumnMatrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/containers/ColumnMatrix.h
+containers/Matrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/containers/Matrix.h
+vector
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/VertexPriorityQueue.h
+boost/heap/fibonacci_heap.hpp
+-
+iostream
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/Exam.h
+vector
+-
+boost/shared_ptr.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/TimetableProblemData.hpp
+vector
+-
+iostream
+-
+containers/IntMatrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/containers/IntMatrix.h
+map
+-
+boost/shared_ptr.hpp
+-
+boost/unordered_map.hpp
+-
+utils/Common.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/utils/Common.h
+Exam.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/Exam.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/eoETTPEval.h
+eoEvalFunc.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/eoNumberEvalsCounter.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/statistics/eoETTPEvalWithStatistics.h
+eval/eoETTPEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/statistics/eval/eoETTPEval.h
+eval/eoNumberEvalsCounter.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/statistics/eval/eoNumberEvalsCounter.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/GraphColouringHeuristics.h
+boost/graph/adjacency_list.hpp
+-
+utils/Common.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/utils/Common.h
+containers/VertexPriorityQueue.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/containers/VertexPriorityQueue.h
+containers/TimetableContainer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/containers/TimetableContainer.h
+containers/TimetableContainerMatrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/containers/TimetableContainerMatrix.h
+data/TimetableProblemData.hpp
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/data/TimetableProblemData.hpp
+utils/eoRNG.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/init/ETTPInit.h
+graphColouring/GraphColouringHeuristics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/init/graphColouring/GraphColouringHeuristics.h
+eoInit.h
+-
+iostream
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/ETTPKempeChain.h
+boost/unordered_set.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/ETTPKempeChainHeuristic.h
+eoFunctor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/eoFunctor.h
+kempeChain/ETTPKempeChain.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/kempeChain/ETTPKempeChain.h
+boost/unordered_set.hpp
+-
+utils/eoRNG.h
+-
+utils/Common.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/utils/Common.h
+containers/Matrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/containers/Matrix.h
+stdexcept
+-
+containers/TimetableContainerMatrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/containers/TimetableContainerMatrix.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/statistics/ETTPKempeChainHeuristicWithStatistics.h
+eoFunctor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/statistics/eoFunctor.h
+chromosome/eoChromosome.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/statistics/chromosome/eoChromosome.h
+kempeChain/ETTPKempeChainHeuristic.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/statistics/kempeChain/ETTPKempeChainHeuristic.h
+boost/unordered_set.hpp
+-
+utils/eoRNG.h
+-
+statistics/MovedExam.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/statistics/statistics/MovedExam.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/ETTPNeighborhoodExplorer.h
+explorer/moNeighborhoodExplorer.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/ETTPneighbor.h
+neighborhood/moNeighbor.h
+-
+kempeChain/ETTPKempeChainHeuristic.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/kempeChain/ETTPKempeChainHeuristic.h
+eoEvalFunc.h
+-
+boost/shared_ptr.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/ETTPneighborEval.h
+eval/moEval.h
+-
+eoEvalFunc.h
+-
+neighbourhood/ETTPneighbor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/neighbourhood/ETTPneighbor.h
+kempeChain/ETTPKempeChain.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/kempeChain/ETTPKempeChain.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/ETTPneighborhood.h
+neighborhood/moNeighborhood.h
+-
+neighborhood/moNeighbor.h
+-
+neighbourhood/ETTPneighbor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/neighbourhood/ETTPneighbor.h
+utils/eoRNG.h
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/ETTPneighborEvalNumEvalsCounter.h
+neighbourhood/ETTPneighborEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/neighbourhood/ETTPneighborEval.h
+eval/eoNumberEvalsCounter.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/eval/eoNumberEvalsCounter.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/ETTPneighborEvalWithStatistics.h
+eval/moEval.h
+-
+eoEvalFunc.h
+-
+neighbourhood/statistics/ETTPneighborWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/neighbourhood/statistics/ETTPneighborWithStatistics.h
+kempeChain/ETTPKempeChain.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/kempeChain/ETTPKempeChain.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/ETTPneighborWithStatistics.h
+neighbourhood/ETTPneighbor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/neighbourhood/ETTPneighbor.h
+statistics/MovedExam.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/statistics/MovedExam.h
+kempeChain/statistics/ETTPKempeChainHeuristicWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/kempeChain/statistics/ETTPKempeChainHeuristicWithStatistics.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/ETTPneighborhoodWithStatistics.h
+neighborhood/moNeighborhood.h
+-
+neighborhood/moNeighbor.h
+-
+utils/eoRNG.h
+-
+neighbourhood/statistics/ETTPneighborWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/neighbourhood/statistics/ETTPneighborWithStatistics.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/ExamInfo.h
+ostream
+-
+boost/shared_array.hpp
+-
+boost/range/algorithm.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/ExamMoveStatistics.cpp
+ExamMoveStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/ExamMoveStatistics.h
+testset/TestSetDescription.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/testset/TestSetDescription.h
+utils/CurrentDateTime.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/utils/CurrentDateTime.h
+neighbourhood/ETTPneighborEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/neighbourhood/ETTPneighborEval.h
+neighbourhood/statistics/ETTPneighborWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/neighbourhood/statistics/ETTPneighborWithStatistics.h
+neighbourhood/statistics/ETTPneighborEvalWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/neighbourhood/statistics/ETTPneighborEvalWithStatistics.h
+neighbourhood/statistics/ETTPneighborhoodWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/neighbourhood/statistics/ETTPneighborhoodWithStatistics.h
+algorithms/mo/statistics/moTAWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/algorithms/mo/statistics/moTAWithStatistics.h
+kempeChain/statistics/ETTPKempeChainHeuristicWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/kempeChain/statistics/ETTPKempeChainHeuristicWithStatistics.h
+init/ETTPInit.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/init/ETTPInit.h
+boost/range/algorithm.hpp
+-
+vector
+-
+algorithms/mo/moTA.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/algorithms/mo/moTA.h
+vector
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/ExamMoveStatistics.h
+eo
+-
+boost/shared_ptr.hpp
+-
+boost/shared_array.hpp
+-
+boost/make_shared.hpp
+-
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+chromosome/eoChromosome.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/chromosome/eoChromosome.h
+algorithms/mo/moSimpleCoolingSchedule.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/algorithms/mo/moSimpleCoolingSchedule.h
+statistics/ExamInfo.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/statistics/ExamInfo.h
+testset/TestSet.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/testset/TestSet.h
+eval/eoETTPEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/eval/eoETTPEval.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/MovedExam.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/testset/TestSet.h
+iostream
+-
+vector
+-
+string
+-
+boost/shared_ptr.hpp
+-
+data/TimetableProblemData.hpp
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/testset/data/TimetableProblemData.hpp
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/testset/TestSetDescription.h
+string
+-
+ostream
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/MainAppTorontoDatasets.cpp
+eo
+-
+algorithm
+-
+iostream
+-
+vector
+-
+fstream
+-
+string
+-
+testset/TestSetDescription.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/testset/TestSetDescription.h
+init/ETTPInit.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/init/ETTPInit.h
+neighbourhood/ETTPneighborEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/neighbourhood/ETTPneighborEval.h
+eval/eoETTPEval.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/eval/eoETTPEval.h
+neighbourhood/ETTPneighbor.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/neighbourhood/ETTPneighbor.h
+toronto/TorontoTestSet.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/toronto/TorontoTestSet.h
+algorithms/eo/eoCellularEARing.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/algorithms/eo/eoCellularEARing.h
+algorithms/eo/eoCellularEAMatrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/algorithms/eo/eoCellularEAMatrix.h
+algorithms/eo/Mutation.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/algorithms/eo/Mutation.h
+algorithms/eo/Crossover.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/algorithms/eo/Crossover.h
+algorithms/eo/eoGenerationContinuePopVector.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/algorithms/eo/eoGenerationContinuePopVector.h
+eoSelectOne.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/eoSelectOne.h
+algorithms/eo/eoSelectBestOne.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/algorithms/eo/eoSelectBestOne.h
+algorithms/eo/eoDeterministicTournamentSelectorPointer.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/algorithms/eo/eoDeterministicTournamentSelectorPointer.h
+eval/eoNumberEvalsCounter.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/eval/eoNumberEvalsCounter.h
+eval/statistics/eoETTPEvalWithStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/eval/statistics/eoETTPEvalWithStatistics.h
+boost/shared_ptr.hpp
+-
+boost/make_shared.hpp
+-
+statistics/ExamMoveStatistics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/statistics/ExamMoveStatistics.h
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/TorontoTestSet.h
+iostream
+-
+fstream
+-
+vector
+-
+iterator
+-
+string
+-
+sstream
+-
+boost/tokenizer.hpp
+-
+graphColouring/GraphColouringHeuristics.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/graphColouring/GraphColouringHeuristics.h
+containers/Matrix.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/containers/Matrix.h
+boost/unordered_map.hpp
+-
+testset/TestSet.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/testset/TestSet.h
+boost/unordered_map.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/Common.h
+boost/graph/adjacency_list.hpp
+-
+boost/random.hpp
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/CurrentDateTime.h
+string
+-
+
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/Utils.cpp
+cmath
+-
+iostream
+-
+algorithms/mo/moSimpleCoolingSchedule.h
+/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/algorithms/mo/moSimpleCoolingSchedule.h
+

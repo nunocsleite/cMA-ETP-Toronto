@@ -1,0 +1,62 @@
+The file UPDATE.TXT contains a list of recent changes made to the files on
+the ftp site.
+
+
+19/06/1996
+----------
+
+Updated data files and a revised Table 1.
+
+
+   Table 1: Characteristics of Real Problems
+
+Institutions    No. of  No. of    No. of Student  Problem 
+                Exams   Students  Exams           Density
+
+car-f-92        543     18419     55522           13.8%
+car-s-91        682     16925     56877           12.8%
+ear-f-83        190     1125      8109            26.7%			
+hec-s-92        81      2823      10632           42%
+kfu-s-93        461     5349      25113           5.6%
+lse-f-91        381     2726      10918           6.3%
+pur-s-93        2419    30032     120681          2.9%
+rye-f-92        486     11483     45051           7.5%
+sta-f-83        139     611       5751            14.4%
+tre-s-92        261     4360      14901           5.8%
+uta-s-92        622     21267     58979           12.6%
+ute-s-92        184     2750      11793           8.5%
+yor-f-83        181     941       6034            28.9%
+
+
+27/09/1996
+----------
+
+Revision to Table#1 and updated the data file for uta-s-92.stu.
+
+The number of students for uta-s-92 should be 21266.
+
+
+07/06/2005
+----------
+
+Changes made to the data set used in the paper where not replicated on
+websites that copied the data. There are issues with people using the
+different data sets in their published papers and generating some
+confusing results between other papers. The old data has now been included
+as part of the test data set.
+
+
+Institutions    No. of  No. of    No. of Student  Problem
+                Exams   Students  Exams           Density
+
+ear-f-83-2      189     1108
+hec-s-92-2      80      2823
+pur-s-93-2      3158    30032
+sta-f-83-2      138     549
+uta-s-92-2      638     21329
+yor-f-83-2      180     919
+
+
+The old data set is located in the ZIP file add_old_data.zip.
+
+

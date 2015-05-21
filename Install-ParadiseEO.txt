@@ -1,0 +1,13 @@
+Instructions:
+
+
+Unpack ParadisEO-2.0 archive to ext/include directory (include directory) and install ParadisEO-2.0 in your machine. Also put ParadiseEO libs in lib/ folder
+
+libs:
+
+libcma.a
+libeo.a
+libeoutils.a
+libes.a
+libga.a
+

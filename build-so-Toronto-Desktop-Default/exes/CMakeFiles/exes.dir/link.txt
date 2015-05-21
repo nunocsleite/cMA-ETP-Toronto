@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC -O3 -DNDEBUG    CMakeFiles/exes.dir/TestSO.cpp.o  -o exes -rdynamic -leo -les -lmoeo -lcma -leoutils -lga -larmadillo ../lib/libSOlib.so -lboost_regex -leo -les -lmoeo -lcma -leoutils -lga -larmadillo -Wl,-rpath,"/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/lib" 

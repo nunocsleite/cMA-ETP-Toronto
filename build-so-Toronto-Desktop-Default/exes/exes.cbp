@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="exes" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\algorithms\;CMake Files\lib\chromosome\;CMake Files\lib\containers\;CMake Files\lib\data\;CMake Files\lib\eval\;CMake Files\lib\graphColouring\;CMake Files\lib\init\;CMake Files\lib\kempeChain\;CMake Files\lib\neighbourhood\;CMake Files\lib\toronto\;CMake Files\lib\utils\;CMake Files\exes\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/exes" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="exes">
+         <Option output="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/exes/exes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/exes" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 exes" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="exes/fast">
+         <Option output="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/exes/exes" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/exes" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 exes/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/exes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes/TestSO.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\algorithms\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\algorithms\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\chromosome\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\chromosome\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\containers\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\containers\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\data\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\data\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\eval\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\eval\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\graphColouring\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\graphColouring\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/init/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\init\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/init/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\init\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\kempeChain\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\kempeChain\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\neighbourhood\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\neighbourhood\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\toronto\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\toronto\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\utils\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\utils\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\exes\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\exes\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

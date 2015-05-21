@@ -1,0 +1,125 @@
+#
+# project
+#
+project(SOlib)
+
+# Include "/lib" directory
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR})
+
+
+add_subdirectory(algorithms)
+add_subdirectory(chromosome)
+add_subdirectory(containers)
+add_subdirectory(data)
+add_subdirectory(eval)
+add_subdirectory(graphColouring)
+add_subdirectory(init)
+add_subdirectory(kempeChain)
+add_subdirectory(neighbourhood)
+add_subdirectory(statistics)
+add_subdirectory(toronto)
+add_subdirectory(utils)
+
+
+#
+# Set public header list (add your headers and source files here))
+#
+set(${PROJECT_NAME}_headers
+        # algorithms/eo
+        algorithms/eo/Crossover.h
+        algorithms/eo/eoCellularEA.h
+        algorithms/eo/eoCellularEAMatrix.h
+        algorithms/eo/eoCellularEARing.h
+        algorithms/eo/eoEvolutionOperator.h
+        algorithms/eo/eoGenerationContinue.h
+        algorithms/eo/eoSCEA.h
+        algorithms/eo/eoSCEAConstrained.h
+        algorithms/eo/eoSimpleGA.h
+        algorithms/eo/Mutation.h
+        # algorithms/mo
+        algorithms/mo/moGDA.h
+        algorithms/mo/moGDAexplorer.h
+        algorithms/mo/moSA.h
+        algorithms/mo/moSAexplorer.h
+        algorithms/mo/moSimpleCoolingSchedule.h
+        algorithms/mo/moTA.h
+        algorithms/mo/moTAexplorer.h
+        # algorithms/mo/statistics
+        algorithms/mo/statistics/moTAWithStatistics.h
+        algorithms/mo/statistics/moTAexplorerWithStatistics.h
+        # chromosome
+        chromosome/Chromosome.h
+        chromosome/eoChromosome.h
+        # containers
+        containers/Matrix.h
+        containers/VertexPriorityQueue.h
+        # data
+        data/Data.h
+        data/Exam.h
+        data/Period.h
+        data/TestSet.h
+        data/TestSetDescription.h
+        data/TimetableProblemData.hpp
+        # eval
+        eval/eoETTPEval.h
+        eval/ProximityCostEval.h
+        # graphColouring
+        graphColouring/GraphColouringHeuristics.h
+        # init
+        init/ETTPInit.h
+        # kempeChain
+        kempeChain/ETTPKempeChain.h
+        kempeChain/ETTPKempeChainHeuristic.h
+        # kempeChain/statistics
+        kempeChain/statistics/ETTPKempeChainHeuristicWithStatistics.h
+        # neighbourhood
+        neighbourhood/ETTPneighbor.h
+        neighbourhood/ETTPneighborEval.h
+        neighbourhood/ETTPneighborhood.h
+        # statistics
+        statistics/ExamInfo.h
+        statistics/ExamMoveStatistics.h
+        # toronto
+        toronto/TorontoTestSet.h
+        # utils
+        utils/Common.h
+        utils/DateTime.h
+)
+
+
+set(${PROJECT_NAME}_sources
+        # algorithms/eo
+        algorithms/eo/Crossover.cpp
+        algorithms/eo/Mutation.cpp
+        # chromosome
+        chromosome/Chromosome.cpp
+        chromosome/eoChromosome.cpp
+        # containers
+        containers/VertexPriorityQueue.cpp
+        # data
+        data/TestSetDescription.cpp
+        # graphColouring
+        # statistics
+        statistics/ExamInfo.cpp
+        statistics/ExamMoveStatistics.cpp
+        # toronto
+        toronto/MainAppTorontoDatasets.cpp
+        toronto/TorontoTestSet.h
+        # utils
+        utils/DateTime.cpp
+        utils/Utils.cpp
+        # lib
+        MainApp.cpp
+)
+
+
+
+add_library(SOlib SHARED ${${PROJECT_NAME}_headers} ${${PROJECT_NAME}_sources})
+
+
+# Include ParadisEO, Boost Regex, Armadillo, ncurses5-dev libs
+#target_link_libraries(${PROJECT_NAME} boost_regex eo es moeo cma eoutils ga armadillo ncurses)
+target_link_libraries(${PROJECT_NAME} boost_regex eo es moeo cma eoutils ga armadillo)
+
+
+

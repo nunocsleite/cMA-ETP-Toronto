@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SOlib" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\algorithms\;CMake Files\lib\chromosome\;CMake Files\lib\containers\;CMake Files\lib\data\;CMake Files\lib\eval\;CMake Files\lib\graphColouring\;CMake Files\lib\init\;CMake Files\lib\kempeChain\;CMake Files\lib\neighbourhood\;CMake Files\lib\toronto\;CMake Files\lib\utils\;CMake Files\exes\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SOlib">
+         <Option output="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/lib/libSOlib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 SOlib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SOlib/fast">
+         <Option output="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/lib/libSOlib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/eo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/mo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/../../ext/include/ParadisEO-2.0/moeo/src" />
+            <Add directory="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 SOlib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nuno/Nuno/PhD/Project/COR2015\ code/build-so-Toronto-Desktop-Default/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/MainApp.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/Crossover.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/Mutation.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/eoChromosome.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/TimetableContainerMatrix.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/VertexPriorityQueue.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/TimetableProblemData.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/EventList.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/ExamEvaluate.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/StdAfx.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/StudentList.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/Timetabling.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/ExamInfo.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/ExamMoveStatistics.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/testset/TestSetDescription.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/MainAppTorontoDatasets.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/TorontoTestSet.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/Common.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/CurrentDateTime.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/Utils.cpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/Crossover.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/Mutation.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoAlgoPointer.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoCellularEA.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoCellularEAMatrix.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoCellularEARing.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoDeterministicTournamentSelectorPointer.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoGenerationContinue.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoGenerationContinuePopVector.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/eo/eoSelectBestOne.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/moSimpleCoolingSchedule.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/moTA.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/moTAexplorer.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/moTAWithStatistics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/mo/statistics/moTAexplorerWithStatistics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/eoChromosome.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/ColumnMatrix.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/IntMatrix.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/Matrix.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/TimetableContainer.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/TimetableContainerMatrix.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/VertexPriorityQueue.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/Data.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/Exam.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/Period.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/TimetableProblemData.hpp">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/eoETTPEval.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/eoNumberEvalsCounter.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/statistics/eoETTPEvalWithStatistics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/EventList.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/StdAfx.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/StudentList.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/examEvaluator/Timetabling.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/GraphColouringHeuristics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/init/ETTPInit.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/ETTPKempeChain.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/ETTPKempeChainHeuristic.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/statistics/ETTPKempeChainHeuristicWithStatistics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/ETTPNeighborhoodExplorer.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/ETTPneighbor.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/ETTPneighborEval.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/ETTPneighborhood.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/ETTPneighborEvalNumEvalsCounter.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/ETTPneighborEvalWithStatistics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/ETTPneighborWithStatistics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/statistics/ETTPneighborhoodWithStatistics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/ExamInfo.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/ExamMoveStatistics.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/statistics/MovedExam.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/testset/TestSet.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/testset/TestSetDescription.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/TorontoTestSet.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/Common.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/CurrentDateTime.h">
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\algorithms\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/algorithms/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\algorithms\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\chromosome\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/chromosome/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\chromosome\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\containers\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/containers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\containers\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\data\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\data\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\eval\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/eval/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\eval\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\graphColouring\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/graphColouring/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\graphColouring\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/init/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\init\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/init/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\init\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\kempeChain\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/kempeChain/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\kempeChain\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\neighbourhood\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/neighbourhood/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\neighbourhood\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\toronto\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/toronto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\toronto\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\utils\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/lib/utils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\utils\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\exes\" />
+      </Unit>
+      <Unit filename="/home/nuno/Nuno/PhD/Project/COR2015 code/so-Toronto/exes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\exes\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

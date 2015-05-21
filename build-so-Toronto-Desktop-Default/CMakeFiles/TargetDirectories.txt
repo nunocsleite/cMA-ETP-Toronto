@@ -1,0 +1,2 @@
+/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/lib/CMakeFiles/SOlib.dir
+/home/nuno/Nuno/PhD/Project/COR2015 code/build-so-Toronto-Desktop-Default/exes/CMakeFiles/exes.dir

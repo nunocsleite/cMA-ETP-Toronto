@@ -1,0 +1,35 @@
+#
+# Nuno Leite et al.
+#
+#
+# Cellular Memetic Algorithm -- How to execute
+# --------------------------------------------
+#
+
+// 1. Build project or use executable directly (code was compiled on an Unix system)
+...
+
+// 2. Go to the exes directory
+cd <build directory>/exes
+
+// 3. Create a output Run directory, e.g., Run1
+
+// 4. Set library path on remote machine
+export LD_LIBRARY_PATH=<build directory>/lib:$LD_LIBRARY_PATH
+
+// 5. Run
+
+$ ./exes 0 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # car92
+$ ./exes 1 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # car91
+$ ./exes 2 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # ear83
+$ ./exes 3 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # hec92
+$ ./exes 4 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # kfu93
+$ ./exes 5 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # lse91
+$ ./exes 6 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # pur93
+$ ./exes 7 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # rye93
+$ ./exes 8 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # sta83
+$ ./exes 9 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/     # tre92
+$ ./exes 10 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/    # uta92
+$ ./exes 11 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/    # ute92
+$ ./exes 12 ./../../ETTP-Benchmarks/Toronto/all_file ./Run1/    # yor83
+

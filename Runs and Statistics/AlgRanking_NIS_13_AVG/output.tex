@@ -1,0 +1,201 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage{lscape}
+\title{Results}
+\author{}
+\date{\today}
+\begin{document}
+\begin{landscape}
+\oddsidemargin 0in \topmargin 0in\maketitle
+\section{Tables of Friedman, Bonferroni-Dunn, Holm, Hochberg and Hommel Tests}
+\begin{table}[!htp]
+\centering
+\caption{Average Rankings of the algorithms
+}\begin{tabular}{c|c}
+Algorithm&Ranking\\
+\hline
+Burke2008&2.4615384615384612\\
+Pillay2010&1.1538461538461535\\
+Demeester2012&2.6538461538461537\\
+Leite2014&4.038461538461538\\
+cMA&4.6923076923076925\\
+\end{tabular}
+\end{table}
+
+
+Friedman statistic considering reduction performance (distributed according to chi-square with 4 degrees of freedom: 40.35384615384614.
+
+
+P-value computed by Friedman Test: 3.661511793762173E-8.\newline
+
+Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 4 and 48 degrees of freedom: 41.57992073976216.
+
+
+P-value computed by Iman and Daveport Test: 4.978593790699881E-15.\newline
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Holm / Hochberg Table for $\alpha=0.05$}
+\begin{tabular}{ccccc}
+$i$&algorithm&$z=(R_0 - R_i)/SE$&$p$&Holm/Hochberg/Hommel\\
+\hline
+4&cMA&5.70559779110359&1.1593547166448002E-8&0.0125\\
+3&Leite2014&4.651302547095318&3.2984499852687415E-6&0.016666666666666666\\
+2&Demeester2012&2.418677324489565&0.015577051213613233&0.025\\
+1&Burke2008&2.1085904880165436&0.03497994463544376&0.05\\
+\hline
+\end{tabular}
+\end{table}
+Bonferroni-Dunn's procedure rejects those hypotheses that have a p-value $\le0.0125$.
+
+
+Hochberg's procedure rejects those hypotheses that have a p-value $\le0.05$.
+
+
+Hommel's procedure rejects all hypotheses.
+
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Holm / Hochberg Table for $\alpha=0.10$}
+\begin{tabular}{ccccc}
+$i$&algorithm&$z=(R_0 - R_i)/SE$&$p$&Holm/Hochberg/Hommel\\
+\hline
+4&cMA&5.70559779110359&1.1593547166448002E-8&0.025\\
+3&Leite2014&4.651302547095318&3.2984499852687415E-6&0.03333333333333333\\
+2&Demeester2012&2.418677324489565&0.015577051213613233&0.05\\
+1&Burke2008&2.1085904880165436&0.03497994463544376&0.1\\
+\hline
+\end{tabular}
+\end{table}
+Bonferroni-Dunn's procedure rejects those hypotheses that have a p-value $\le0.025$.
+
+
+Hochberg's procedure rejects those hypotheses that have a p-value $\le0.1$.
+
+
+Hommel's procedure rejects all hypotheses.
+
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Adjusted $p$-values}
+\begin{tabular}{ccccccc}
+i&algorithm&unadjusted $p$&$p_{Bonf}$&$p_{Holm}$&$p_{Hoch}$&$p_{Homm}$\\
+\hline
+1&cMA&1.1593547166448002E-8&4.6374188665792006E-8&4.6374188665792006E-8&4.6374188665792006E-8&4.6374188665792006E-8\\
+2&Leite2014&3.2984499852687415E-6&1.3193799941074966E-5&9.895349955806225E-6&9.895349955806225E-6&9.895349955806225E-6\\
+3&Demeester2012&0.015577051213613233&0.06230820485445293&0.031154102427226465&0.031154102427226465&0.031154102427226465\\
+4&Burke2008&0.03497994463544376&0.13991977854177504&0.03497994463544376&0.03497994463544376&0.03497994463544376\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Holm / Shaffer Table for $\alpha=0.05$}
+\begin{tabular}{cccccc}
+$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm&Shaffer\\
+\hline
+10&Pillay2010 vs. cMA&5.70559779110359&1.1593547166448002E-8&0.005&0.005\\
+9&Pillay2010 vs. Leite2014&4.651302547095318&3.2984499852687415E-6&0.005555555555555556&0.008333333333333333\\
+8&Burke2008 vs. cMA&3.5970073030870457&3.2189944909628143E-4&0.00625&0.008333333333333333\\
+7&Demeester2012 vs. cMA&3.2869204666140246&0.001012894364644191&0.0071428571428571435&0.008333333333333333\\
+6&Burke2008 vs. Leite2014&2.5427120590787733&0.010999583241544148&0.008333333333333333&0.008333333333333333\\
+5&Pillay2010 vs. Demeester2012&2.418677324489565&0.015577051213613233&0.01&0.01\\
+4&Demeester2012 vs. Leite2014&2.232625222605752&0.025573669368214643&0.0125&0.0125\\
+3&Burke2008 vs. Pillay2010&2.1085904880165436&0.03497994463544376&0.016666666666666666&0.016666666666666666\\
+2&Leite2014 vs. cMA&1.0542952440082725&0.29174776552126863&0.025&0.025\\
+1&Burke2008 vs. Demeester2012&0.31008683647302143&0.7564949222136523&0.05&0.05\\
+\hline
+\end{tabular}
+\end{table}
+Nemenyi's procedure rejects those hypotheses that have a p-value $\le0.005$.
+
+
+Holm's procedure rejects those hypotheses that have a p-value $\le0.008333333333333333$.
+
+
+Shaffer's procedure rejects those hypotheses that have a p-value $\le0.005$.
+
+
+Bergmann's procedure rejects these hypotheses:
+
+
+\begin{itemize}
+
+
+\item Burke2008 vs. Leite2014
+\item Burke2008 vs. cMA
+\item Pillay2010 vs. Leite2014
+\item Pillay2010 vs. cMA
+\item Demeester2012 vs. cMA
+\end{itemize}
+
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Holm / Shaffer Table for $\alpha=0.10$}
+\begin{tabular}{cccccc}
+$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm&Shaffer\\
+\hline
+10&Pillay2010 vs. cMA&5.70559779110359&1.1593547166448002E-8&0.01&0.01\\
+9&Pillay2010 vs. Leite2014&4.651302547095318&3.2984499852687415E-6&0.011111111111111112&0.016666666666666666\\
+8&Burke2008 vs. cMA&3.5970073030870457&3.2189944909628143E-4&0.0125&0.016666666666666666\\
+7&Demeester2012 vs. cMA&3.2869204666140246&0.001012894364644191&0.014285714285714287&0.016666666666666666\\
+6&Burke2008 vs. Leite2014&2.5427120590787733&0.010999583241544148&0.016666666666666666&0.016666666666666666\\
+5&Pillay2010 vs. Demeester2012&2.418677324489565&0.015577051213613233&0.02&0.025\\
+4&Demeester2012 vs. Leite2014&2.232625222605752&0.025573669368214643&0.025&0.025\\
+3&Burke2008 vs. Pillay2010&2.1085904880165436&0.03497994463544376&0.03333333333333333&0.03333333333333333\\
+2&Leite2014 vs. cMA&1.0542952440082725&0.29174776552126863&0.05&0.05\\
+1&Burke2008 vs. Demeester2012&0.31008683647302143&0.7564949222136523&0.1&0.1\\
+\hline
+\end{tabular}
+\end{table}
+Nemenyi's procedure rejects those hypotheses that have a p-value $\le0.01$.
+
+
+Holm's procedure rejects those hypotheses that have a p-value $\le0.025$.
+
+
+Shaffer's procedure rejects those hypotheses that have a p-value $\le0.01$.
+
+
+Bergmann's procedure rejects these hypotheses:
+
+
+\begin{itemize}
+
+
+\item Burke2008 vs. Pillay2010
+\item Burke2008 vs. Leite2014
+\item Burke2008 vs. cMA
+\item Pillay2010 vs. Demeester2012
+\item Pillay2010 vs. Leite2014
+\item Pillay2010 vs. cMA
+\item Demeester2012 vs. Leite2014
+\item Demeester2012 vs. cMA
+\end{itemize}
+
+
+\begin{table}[!htp]
+\centering\tiny
+\caption{Adjusted $p$-values}
+\begin{tabular}{cccccccc}
+i&hypothesis&unadjusted $p$&$p_{Neme}$&$p_{Holm}$&$p_{Shaf}$&$p_{Berg}$\\
+\hline
+1&Pillay2010 vs .cMA&1.1593547166448002E-8&1.1593547166448001E-7&1.1593547166448001E-7&1.1593547166448001E-7&1.1593547166448001E-7\\
+2&Pillay2010 vs .Leite2014&3.2984499852687415E-6&3.2984499852687414E-5&2.9686049867418673E-5&1.979069991161245E-5&1.979069991161245E-5\\
+3&Burke2008 vs .cMA&3.2189944909628143E-4&0.0032189944909628144&0.0025751955927702515&0.0019313966945776885&0.0019313966945776885\\
+4&Demeester2012 vs .cMA&0.001012894364644191&0.01012894364644191&0.007090260552509337&0.006077366187865146&0.004051577458576764\\
+5&Burke2008 vs .Leite2014&0.010999583241544148&0.10999583241544147&0.06599749944926489&0.06599749944926489&0.032998749724632445\\
+6&Pillay2010 vs .Demeester2012&0.015577051213613233&0.15577051213613233&0.07788525606806616&0.06599749944926489&0.06230820485445293\\
+7&Demeester2012 vs .Leite2014&0.025573669368214643&0.2557366936821464&0.10229467747285857&0.10229467747285857&0.06230820485445293\\
+8&Burke2008 vs .Pillay2010&0.03497994463544376&0.3497994463544376&0.10493983390633127&0.10493983390633127&0.06995988927088752\\
+9&Leite2014 vs .cMA&0.29174776552126863&2.917477655212686&0.5834955310425373&0.5834955310425373&0.5834955310425373\\
+10&Burke2008 vs .Demeester2012&0.7564949222136523&7.564949222136523&0.7564949222136523&0.7564949222136523&0.7564949222136523\\
+\hline
+\end{tabular}
+\end{table}
+
+\end{landscape}\end{document}
